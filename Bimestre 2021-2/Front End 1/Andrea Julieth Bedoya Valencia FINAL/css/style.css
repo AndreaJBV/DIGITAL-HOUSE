@@ -1,0 +1,909 @@
+/* ________________________ESCRITORIO- 1440________________ */
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0%;
+    padding: 0%; 
+}
+
+/*_______________Header______________*/
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: center;
+    
+}
+
+.logo{
+    display: flex;
+    margin-top: 75.13px;
+    margin-left: 165px;
+}
+.logoTipo{
+    width: 150px;
+    height: 24px;
+}
+
+
+.banner>.barraNavegacion{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 75.5px;
+    margin-left: 224px;
+    position: center;
+}
+.barraNavegacion>.items{
+    display: flex;
+    padding: center;
+    justify-content: space-between;
+    width: 382px;
+    height: 23px;
+    left: 534.54px;
+    top: 75.5px;
+    
+}
+
+.barraNavegacion>.items> li a{
+    color: #242E52;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn1{
+    display: flex;
+    margin-top: 65px;
+    margin-left: 224px;
+}
+
+.botonNaranja{ 
+    flex-direction: row;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.botonNaranja a{
+    color:#FFFFFF;
+    text-decoration: none;
+    text-align:center;
+    margin-left: 30.5px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    margin-right: 30.5px;
+    font-size: 13.18px;
+    font-weight: bold;
+}
+
+/*____________Main_____________*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* home */
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 49px;
+    /* margin-left: 165px; */
+    align-items: flex-start;
+}
+
+.FraseHome{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 198px;
+}
+
+.FraseHome h1{
+    display: flex;
+    color: #232C50;
+    font-size: 58px;
+    /* line-height: 66.47px; */
+    font-weight: 700;
+    /* width: 439px; */
+
+}
+ .FraseHome p{
+     display: flex;
+     font-weight: bold;
+     color: #000000;
+     font-size: 16.56px;
+     font-weight: 350px;
+     width: 350px;
+     height: 71px;
+
+ }
+
+ .btn2{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 28px;
+    position:sticky; top: 0px;
+ }
+
+ .ilustracion{
+     display: flex;
+     margin-left: 110px;
+     width: 580;
+     height: 525px;
+     position:sticky; left: 165px;
+
+ }
+
+/* Sobre nosotros */
+ .sobreNosotros{
+     display: flex;
+     margin-top: 145.21px;
+     flex-direction: row;
+     justify-content: flex-start;
+
+ }
+
+ .Frame2{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     align-content: space-between;
+     width: 500px;
+     height: 88px;
+
+ }
+ h2{
+     display: flex;
+     font-size: 36px;
+     font-weight: 700;
+     width: 433px;
+ }
+
+ .Frame2 p{
+     display: flex;
+     font-size: 16px;
+     font-weight: bold;
+     font-style: normal;
+     width: 337px;
+     height: 88px;
+ }
+
+ .division {
+     display: flex;
+     flex-direction: column;
+     /* margin-left: 125px; */
+     width: 553px;
+
+ }
+
+ .Frame4{
+     display: flex;  
+     flex-direction: row; 
+     justify-content: flex-start;
+     /* width: 553px; */
+
+ }
+
+ .btn{
+    display: flex;
+ }
+
+ .botonNumero{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    padding: 10px 25px;
+    background-color: #F3603B;
+    width: 69px;
+    height: 43px;
+ }
+
+ .botonNumero a{
+    color:#FFFFFF;
+    text-decoration: none;
+    text-align:center;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: bold;
+ }
+
+ .texto{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     width: 437px;
+     height: 158px;
+     margin-left: 23px;
+ }
+
+ .TituloFrame{
+     display: flex;
+     font-size: 16px;
+     color: #323851;
+     font-weight: bold;
+ }
+
+ .parrafoFrame{
+     display: flex;
+     font-size: 16.2984px;
+     color: #B3B2B7;
+ }
+
+ .Frame{
+     display: flex;
+     margin-top: 33.5px;
+     flex-direction: row; 
+     justify-content: flex-start;
+ }
+
+ /* Testimonios */
+
+ .Testimonios{
+     display: flex;
+     margin-top: 132.5px;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .titulo{
+     display: flex;
+     width: 334.41px;
+     height: 61px;
+     align-items: center;
+ }
+
+ .titulo p{
+     display: flex;
+     font-size: 39.2143px;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .cards{
+     display: flex;
+     flex-direction: row;
+     align-content: space-between;
+
+ }
+
+ .grupo{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: space-between;
+     width: 445px;
+     height: 253.5px;
+     margin-top: 75px;
+
+ }
+
+ .imagen{
+     /* display: flex; */
+     width: 70px;
+     height: 70px;
+     justify-content: center;
+     margin-left: 188px;
+ }
+.imagen img{
+    width: 70px;
+    height: 70px;
+}
+
+ .nombre{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 21px;
+    
+ }
+
+ .nombre p{
+     display: flex;
+     justify-content: center;
+     font-size: 16.07px;
+     color:#3F4868;
+     font-weight: bold;
+
+ }
+
+ .comentario{
+     display: flex;
+     align-items: center;
+     width: 390px;
+     height: 78px;
+
+ }
+
+ .comentario p{
+     display: flex;
+     font-size: 16px;
+     color: #B9B9C1;
+     text-align: center;
+     font-weight: bold;
+ }
+
+ .btn3{
+     display: flex;
+     margin-top: 45px;
+     align-content: center;
+ }
+
+ /* Rectangulo naranjado */
+ .rectanguloNaranjado{
+     display: flex;
+     flex-direction: row;
+     background-color: #F3613C;
+     margin-top: 269px;
+     align-content: center;
+     align-items: center;
+     width: 1440px;
+     height: 224px;
+ }
+
+ .textoRectanguloNaranjado{
+     display: flex;
+     width: 438px;
+     /* height: 96px; */
+     margin-left: 164px;
+     margin-top: 64px;
+     margin-bottom: 64px;
+ }
+
+ .textoRectanguloNaranjado p{
+     font-size: 40px;
+     color: #FFFFFF;
+     font-weight: bold;
+ }
+
+ .btn4{
+     display: flex;
+     margin-left: 538px;
+     margin-top: 90px;
+     margin-bottom: 90px;
+ }
+
+ .botonBlanco{
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.botonBlanco a{
+    color:#F3603B;
+    text-decoration: none;
+    text-align:center;
+    margin-left: 30.5px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    margin-right: 30.5px;
+    font-size: 13.18px;
+    font-weight: bold;
+}
+
+/*__________ footer___________ */
+.footer{
+    display: flex;
+    background-color: #1E1E26;
+    width: 1440px;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+
+.division2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.logoT{
+    display: flex;
+    margin-top: 67.26px;
+    margin-left: 165px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 66.68px;
+    margin-left: 170.88px;
+    margin-bottom: 67.26px;
+    align-content: space-between;
+    color:#FFFFFF;
+}
+
+.icon{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-left: 13.33px;
+}
+.division3{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.listaFooter3{
+    display: flex;
+    width: 75px;
+    height: 128px;
+    margin-left: 126.47px;
+    margin-top: 52.93px;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 23px;
+}
+
+.listaFooter3 li a{
+    display: flex;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.division4{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.listaFooter4{
+    display: flex;
+    height: 93px;
+    margin-left: 210px;
+    margin-top: 52.93px;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 23px;
+}
+
+.listaFooter4 li a{
+    display: flex;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.division5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 56.29px;
+}
+
+.Formulario{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.Formulario>form p{
+    display: flex;
+    height: 44px;
+    border-radius: 50px;
+    align-content: center;
+}
+
+
+.Formulario>form p input{
+    border-radius: 50px;
+}
+
+.go{
+    display: flex;
+    width: 63px;
+    height: 42px;
+    border-radius: 50px;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 9px;  
+    align-items: center;   
+    padding: 10px;
+}
+
+.mensajeFinal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 73.93px;
+    margin-left: 1060.26px;
+}
+
+.letra {
+    display: flex;
+    font-size: 12.5px;
+    color:#9292a3;
+    font-weight: 500;
+}
+
+/* Pseudo clases */
+.botonNaranja a :visited{
+    color: rgb(9, 12, 12);
+}
+
+.botonNaranja :hover{
+    background-color: aqua;
+    color: black;
+}
+
+.botonNumero :hover{
+    background-color: blueviolet;
+    color: black;
+}
+
+.botonBlanco :hover{
+    color: darkblue;
+}
+
+.go :hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+li :hover{
+    background-color: lightseagreen;
+}
+/* Pseudo elementos */
+h1::after{
+     color: hotpink;
+}
+
+/* ________________________ESCRITORIO- 1440________________ */
+
+/* ________________________MOBILE-320 ________________ */
+@media(max-width:460px){
+    * {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .baner{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    
+    .logoTipo{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    
+    .banner>.barraNavegacion{
+        width: 0.3rem;
+        height: auto;
+    }
+    .barraNavegacion>.items{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .barraNavegacion>.items> li a{
+        width: 0.3rem;
+        height: auto;
+    }
+    .btn1{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .botonNaranja{ 
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .botonNaranja a{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    /*____________Main_____________*/
+    main{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    /* home */
+    .home{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .FraseHome{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .FraseHome h1{
+        width: 0.3rem;
+        height: auto;
+    
+    }
+    
+    .FraseHome p{
+        
+        width: 0.3rem;
+        height: auto;
+    }
+    
+     .btn2{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .ilustracion{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+    /* Sobre nosotros */
+     .sobreNosotros{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .Frame2{
+        width: 0.3rem;
+        height: auto;
+    
+     }
+     h2{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .Frame2 p{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .division {
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .Frame4{
+         
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .btn{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .botonNumero{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .botonNumero a{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .texto{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .TituloFrame{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .parrafoFrame{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .Frame{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     /* Testimonios */
+    
+     .Testimonios{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .titulo{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .titulo p{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .cards{
+        width: 0.3rem;
+        height: auto;
+    
+     }
+    
+     .grupo{
+        width: 0.3rem;
+        height: auto;
+    
+     }
+    
+     .imagen{
+        width: 0.3rem;
+        height: auto;
+     }
+    .imagen img{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+     .nombre{
+        width: 0.3rem;
+        height: auto;
+        
+     }
+    
+     .nombre p{
+        width: 0.3rem;
+        height: auto;
+    
+     }
+    
+     .comentario{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .comentario p{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .btn3{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     /* Rectangulo naranjado */
+     .rectanguloNaranjado{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .textoRectanguloNaranjado{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .textoRectanguloNaranjado p{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .btn4{
+        width: 0.3rem;
+        height: auto;
+     }
+    
+     .botonBlanco{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .botonBlanco a{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    /*__________ footer___________ */
+    .footer{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .division2{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .logoT{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .iconos{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .icon{
+        width: 0.3rem;
+        height: auto;
+    }
+    .division3{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .listaFooter3{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .listaFooter3 li a{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .division4{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .listaFooter4{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .listaFooter4 li a{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .division5{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .Formulario{
+        width: 0.3rem;
+        height: auto;
+      
+    }
+    
+    .Formulario>form p{
+        width: 0.3rem;
+        height: auto;
+       
+    }
+    
+    
+    .Formulario>form p input{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .go{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    .mensajeFinal{
+        width: 0.3rem;
+        height: auto;
+    }
+    
+    
+}

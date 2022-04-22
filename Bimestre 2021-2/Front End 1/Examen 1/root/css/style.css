@@ -1,0 +1,21 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.banner1{
+    background-color: #1CD1B0;
+    width: 1024px;
+    height: 38px;
+    font-size: 15px;/*esto es un cometario*/
+    color:black; 
+}
+
+h1{
+    background-color:#00669F;
+    font-size: 40px;
+    width: 1024px;
+    height: 101px;
+    margin: 0%; /* se coloca acá porque para el h1 tiene margen pro defecto */
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25); /* Para darle una sombrita */
+    padding-top: 30px;
+}
